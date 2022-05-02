@@ -14,3 +14,9 @@ D:\Repos\CatWorx.BadgeMaker\obj\Debug\net5.0\CatWorx.BadgeMaker.dll
 D:\Repos\CatWorx.BadgeMaker\obj\Debug\net5.0\ref\CatWorx.BadgeMaker.dll
 D:\Repos\CatWorx.BadgeMaker\obj\Debug\net5.0\CatWorx.BadgeMaker.pdb
 D:\Repos\CatWorx.BadgeMaker\obj\Debug\net5.0\CatWorx.BadgeMaker.genruntimeconfig.cache
+D:\Repos\CatWorx.BadgeMaker\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Repos\CatWorx.BadgeMaker\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Repos\CatWorx.BadgeMaker\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Repos\CatWorx.BadgeMaker\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\Repos\CatWorx.BadgeMaker\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\Repos\CatWorx.BadgeMaker\obj\Debug\net5.0\CatWorx.BadgeMaker.csproj.CopyComplete
