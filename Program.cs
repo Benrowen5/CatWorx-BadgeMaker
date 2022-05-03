@@ -5,43 +5,25 @@ namespace CatWorx.BadgeMaker
 {
     class Program
     {
-        static List<Employee> GetEmployees() 
-        {
-            List<Employee> employees = new List<Employee>();
-            while(true) {
-                // Get user input for employee and save to a new Employee instance
-                Console.WriteLine("Please enter first name (leave empty to exit): ");
-                string firstName = Console.ReadLine();
-                if (firstName == "") {
-                    break;
-                }
-                Console.Write("Enter last name: ");
-                string lastName = Console.ReadLine();
-                Console.Write("Enter employee ID number: ");
-                int employeeId = Int32.Parse(Console.ReadLine());
-                Console.Write("Enter employee photo URL: ");
-                string photoUrl = Console.ReadLine();
-
-                // create new Employee instance
-                Employee currentEmployee = new Employee(firstName, lastName, employeeId, photoUrl);
-                // Add currentEmployee of Employee type
-                employees.Add(currentEmployee);
-            }
-            // important
-            return employees;
-        }
-
         static void Main(string[] args)
         {
-            // GetEmployees method call
-            List<Employee> employees = GetEmployees();
+            // instantiate new employees List
+            List<Employee> employees = new List<Employee>();          
             
-            Console.WriteLine("Your employee list: ");
+            Console.WriteLine("Do you want to fetch data from the API? Please enter 'yes' or 'no', or leave empty to exit.");
+            string dataInput = Console.ReadLine();
+            if (dataInput == "yes") {
+                employees = PeopleFetcher.GetFromApi();   
+            } else if (dataInput == "no") {
+                employees = PeopleFetcher.GetEmployees();
+            } else {
+                Environment.Exit(0);
+            }
+
             // PrintEmployees method call, passing employees in as parameter.
             Util.PrintEmployees(employees);   
             Util.MakeCSV(employees);
-            Util.MakeBadges(employees);
-            
+            Util.MakeBadges(employees);         
         }        
     }
 }
