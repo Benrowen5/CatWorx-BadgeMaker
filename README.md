@@ -4,11 +4,10 @@ C# employee badge maker console app.
   ![License](https://img.shields.io/badge/license-MIT-blue)
   
   ## Description
-  This application is an interactive console application which allows users to create employee badges. Users can select to manually enter employee information or pull random employee data from the RandomUser API. Output files are badge images (.png), and a CSV file with employee data populated. This application was created as a C# tutorial of .net core.
+  This application is an interactive console application which allows users to create employee badges and a CSV file of employee data. Users can select to manually enter employee information or pull random employee data from the RandomUser API. Output files are badge images (.png), and a CSV file with employee data populated. This application was created as a C# tutorial of .net core.
   
-
-
-  <!-- screenshot -->
+![CatWorxSS](https://user-images.githubusercontent.com/79202800/166468308-99b833ea-d0d3-4eed-9be2-abb22397e36d.PNG)
+![CatWorxSS2](https://user-images.githubusercontent.com/79202800/166468320-d6b60841-d106-401e-abc9-a26dc72dc8bd.PNG)
 
   
   ***************************************************************
